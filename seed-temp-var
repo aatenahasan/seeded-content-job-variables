@@ -1,0 +1,12 @@
+---
+seed_lab_content: false
+seed_validated_content: true
+credentials:
+  azure_service_principal:
+    name: Azure Service Principal
+  controller:
+    name: Ansible Automation Controller
+  red_hat_registry:
+    name: Red Hat Registry
+  ssh:
+    name: VM SSH Credential
