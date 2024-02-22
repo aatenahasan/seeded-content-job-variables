@@ -1,12 +1,15 @@
----
-seed_lab_content: false
-seed_validated_content: true
-credentials:
-  azure_service_principal:
-    name: Azure Service Principal
-  controller:
-    name: Ansible Automation Controller
-  red_hat_registry:
-    name: Red Hat Registry
-  ssh:
-    name: VM SSH Credential
+--
+controller_seed_lab_content: true
+controller_session_cookie_age: 28800
+controller_credentials_ssh_key_data: "<enter your public id>"
+controller_projects_wait: true
+CONTROLLER_USERNAME: "admin"
+CONTROLLER_PASSWORD: "<enter your controller password>"
+AWS_ACCESS_KEY_ID: "<enter your aws access key id>"
+AWS_SECRET_ACCESS_KEY: "<aws secret access key>"
+AZURE_TENANT: "<input your azure tenant>"
+AZURE_SUBSCRIPTION_ID: "<input your azure subscription id>"
+AZURE_CLIENT_ID: "<enter your azure client id>"
+AZURE_SECRET: "<>"
+RED_HAT_ACCOUNT: "<enter your red hat account username>"
+RED_HAT_PASSWORD: "<enter your red hat account password>"
