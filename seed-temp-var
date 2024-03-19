@@ -1,15 +1,3 @@
----
 controller_seed_lab_content: true
 controller_session_cookie_age: 28800
-controller_credentials_ssh_key_data: "<copy paste your private ssh key>"
 controller_projects_wait: true
-CONTROLLER_USERNAME: "admin"
-CONTROLLER_PASSWORD: "<enter your controller password>"
-AWS_ACCESS_KEY_ID: "<enter your aws access key id>"
-AWS_SECRET_ACCESS_KEY: "<aws secret access key>"
-AZURE_TENANT: "<input your azure tenant>"
-AZURE_SUBSCRIPTION_ID: "<input your azure subscription id>"
-AZURE_CLIENT_ID: "<enter your azure client id>"
-AZURE_SECRET: "<enter your azure client ID secret>"
-RED_HAT_ACCOUNT: "<enter your red hat account username>"
-RED_HAT_PASSWORD: "<enter your red hat account password>"
